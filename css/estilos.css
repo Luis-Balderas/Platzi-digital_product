@@ -1,0 +1,232 @@
+html, body
+{
+  margin:0;
+  padding: 0;
+  font-family: helvetica;
+  color: #313337;
+}
+
+p, label
+{
+
+  font-size: 12px;
+}
+
+label
+{
+  padding-bottom: 10px;
+}
+
+
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  padding: 12px;
+  min-height: 60px;
+  background-color:#7ACC2D;
+}
+
+nav a
+{
+  text-decoration: none;
+  color: #313337;
+  font-size:12px;
+}
+
+nav a:hover
+{
+  color: white;
+}
+
+nav ul
+{
+  display: flex;
+}
+
+nav ul li
+{
+  padding-right: 20px;
+  list-style: none;
+}
+
+hr
+{
+  opacity: .2;
+}
+
+.main_section
+{
+  padding: 20%;
+  text-align:
+}
+
+.products
+{
+  background-image: url("../images/curve.png");
+  max-height: 50px;
+  background-size:cover;
+  background-position: center top;
+  padding:25%;
+  display:flex;
+}
+
+.product
+{
+padding: 10px;
+margin-top: -490px;
+}
+
+.product .content
+{
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+
+.img_content
+{
+  text-align: center;
+}
+
+.main_button
+{
+  background-color: #7ACC2D;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color:white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.main_button:hover
+{
+  background-color: #5e9e22;
+}
+
+
+.beneficios
+{
+  padding:10px;
+  display: flex;
+}
+
+.beneficio
+{
+  text-align:center;
+  padding: 20px;
+}
+
+.beneficio img
+{
+  max-height: 100px;
+}
+.text_beneficio
+{
+  text-align: justify;
+}
+
+
+.mentions
+{
+  display: flex;
+  padding: 5%;
+}
+
+.mention img
+{
+  width:100%
+}
+
+h2.mention_title
+{
+  text-align: center;
+}
+
+.mention
+{
+  padding: 10px;
+}
+
+.content_mention
+{
+  box.shadow: opx o 2px 1px #e6e5e9;
+}
+
+.mention .text
+{
+  padding: 10px
+}.Producto_casilla
+{
+  margin-left: 142px;
+  margin-top: 180px;
+  font-family: helvetica;
+}
+
+.container
+{
+  max-width: 900px;
+  margin: auto;
+  padding: 80px;
+}
+
+
+
+
+.Producto_casilla
+{
+  margin-left: 142px;
+  margin-top: 180px;
+  font-family: helvetica;
+}
+
+.container
+{
+  max-width: 900px;
+  margin: auto;
+  padding: 80px;
+}
+
+
+.modulo_pago
+{
+  border-color: white;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+  padding: 10px;
+}
+
+.modulo_pago_images
+{
+  max-width:  200px;
+  text-align: center;
+  width: 100%;
+  margin:auto;
+}
+
+.data
+{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button
+{
+  margin-top: 10px;
+}
+
+footer
+{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
